@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Reynard G. - ISP</title>
+    <style>
+      body {
+	  font-family: "Montserrat";
+      }
+
+      .row {
+	  display: flex;
+      }
+
+      .column {
+	  flex: 50%;
+	  padding: 5px;
+      }
+      
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+	  $('#header').load('header.html');
+      });
+    </script>
+  </head>
+  <body bgcolor="#F2F2F2" text="#7F7F7F">
+    <div id="header"></div>
+    <center>
+      <h1>ISP</h1>
+      <p>My Team's ISP Project was based on the game 2048.</p>
+    </center>
+    <div class="row">
+      <div class="column">
+	<img src="https://codermerlin.com/users/reynard-gunawan/ISP%20-%20Concept.png" alt="Concept" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="https://codermerlin.com/users/reynard-gunawan/ISP%20-%20Motivation.png" alt="Motivation" style="width:100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+	<img src="https://codermerlin.com/users/reynard-gunawan/ISP%20-%20Explanation1.png" alt="Explanation1" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="https://codermerlin.com/users/reynard-gunawan/ISP%20-%20Explanation2.png" alt="Explanation2" style="width:100%">
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+	<img src="https://codermerlin.com/users/reynard-gunawan/ISP%20-%20Challenges.png" alt="Challenges" style="width:100%">
+      </div>
+      <div class="column">
+	<img src="https://codermerlin.com/users/reynard-gunawan/ISP%20-%20Timeline.png" alt="Timeline" style="width:100%">
+      </div>
+    </div>
+    <center>
+      <h2>Conclusion</h2>
+      <p>We expected that the rendering of the tiles was going to be the hardest, but that was easily done with</p>
+      <p>a function rendering all the tiles from an array keeping the positions of the current tiles. It turns out, the gamesense was</p>
+      <p>the hardest due to bugs such as allowing the right-most tile being able to combine with the next row's left-most tile due to the array</p>
+      <p>not accounting for rows in the game.</p>
+    </center>
+  </body>
+</html>
