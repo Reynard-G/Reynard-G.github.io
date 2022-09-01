@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Reynard G. - Header</title>
+  </head>
+  <body>
+    <style>
+      body {
+	  font-family: "Montserrat";
+      }
+      
+      .btn {
+	  border: none;
+	  background-color: #F2F2F2;
+	  padding: 14px 28px;
+	  font-size: 16px;
+	  text-align: right;
+	  cursor: pointer;
+	  display: inline-block;
+	  color: #808080;
+	  transition: color .5s;
+      }
+
+      .btn:hover {
+	  color: black;
+      }
+
+      .name {
+	  background-image:linear-gradient(to right, #7F7F7F, #7F7F7F 33.33333%, #ffad33 66.66666%, #ff9a00);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  background-size: 300% 100%;
+	  background-position: top left;
+	  transition:background-position .5s ease-in-out;
+      }
+
+      .name:hover {
+	  background-position: top left 100%;
+      }
+    </style>
+  </body>
+  <body>
+    <div class="header" style="background-color: #F2F2F2;">
+      <a href="../index.html" class="name">Reynard Gunawan</a>
+      <div class="buttons">
+	<button onclick='window.location.assign("test.html")' class="btn test">Test</button>
+      </div>
+    </div>
+  </body>
+</html>
