@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="icon" type="image/png" href="../../favicon.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -7,19 +7,9 @@
     <style>
       body {
 	  font-family: "Montserrat";
-      }
-
-      p {
-	  text-align: left;
-	  max-width: 120ch;
-      }
-
-      p.cite {
-	  margin-left: 100px;
-      }
-
-      p.cite:first-letter {
-	  margin-left: -50px;
+	  background-color: #F2F2F2;
+	  color: #7F7F7F;
+	  text-align: center;
       }
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -29,15 +19,34 @@
       });
     </script>
   </head>
-  <body bgcolor="#F2F2F2" text="#7F7F7F">
+  <body>
     <div id="header"></div>
-    <center>
-      <h1>Fingerprints</h1>
-      <p>Fingerprints are an essential aspect of the internet; they ensure that the information you're getting is legitimate. One way to mask your valuable internet information is Certificate Authorities (CA). They put their reputation as a Certificate Authority on the line by digitally signing the site's security certificate, which contains an assertion of its identity. Another way to disguise your internet information is by going to a HTTPS website (Padlock). Two fundamental reasons for utilizing a HTTPS connection when visiting a website are to enhance a user's security and privacy. While HTTPS connections are primarily secure, corporations, schools, and other organizations have responded to this "loss of visibility" by deploying HTTPS Proxy Appliances. HTTPS Proxy Appliances allow these organizations to examine HTTPS traffic requested by individuals on their network, which circumvents a user's guarantee of Internet browser privacy. This brings up the question, does your school/government/ISP have a right to eavesdrop on your communication? No, this violates the fundamental right to privacy and may be used by telecom networks to sell your data. Although your organization may be monitoring your network, you are still protected. Examining a website's SSL certificate can produce a "cryptographic hash." Changing one bit within a certificate can result in the average alteration of half of the fingerprint's hash bits. Although hashing sounds like a good idea, there are some flawed ones, such as MD5 & SHA-1. A good hash has collision resistance, preimage resistance, and second preimage resistance. Collision Resistance is how hard it is to find two messages (message digest) that hash the same. Preimage Resistance is the difficulty of finding another message that hashes the same when given a hash. Second preimage resistance is when you're given a message and it is infeasible to find a second input with the same output as the given input. </p>
-      <p>Devices connected to the internet are susceptible to attacks. An SSL interception is an attack used to intercept, block or allow traffic to and from websites. Anti-Malware software can assist you in detecting SSL interceptions and removing them. Avoid clicking on spam emails, ads, and visiting non-HTTPS websites. Similar to an SSL interception attack, a MitM attack intercepts communications between two parties. The attacker can monitor, collect, or manipulate all information sent between the parties. Some people may think they are tracked by checking a site's certificate fingerprints. Amazon and Google, for example, have several certificates to make it easier to obtain and manage them, but their security is not compromised; this is known as a false-positive. Another component of this is a false-negative, which occurs when you believe you are not being monitored when you are.</p>
-      <img src="https://codermerlin.com/users/reynard-gunawan/Fingerprints.png" alt="Authenticate Fingerprint Diagram">
-      <p class="cite">Burnett, E. (1956, September 1). Which cryptographic hash function should I choose? Stack Overflow. Retrieved August 24, 2022, from https://stackoverflow.com/questions/800685/which-cryptographic-hash-function-should-i-choose </p>
-      <p class="cite">Swinhoe, D. (2022, March 25). Man-in-the-middle (MITM) attack definition and examples. CSO Online. Retrieved August 24, 2022, from https://www.csoonline.com/article/3340117/man-in-the-middle-attack-definition-and-examples.html </p>
-    </center>
+    <h1>Fingerprints</h1>
+    <p>
+      Fingerprints are an essential aspect of the internet; they ensure that the information you're getting is legitimate. One way to mask your valuable internet <br>
+      information is Certificate Authorities (CA). They put their reputation as a Certificate Authority on the line by digitally signing the site's security <br>
+      certificate, which contains an assertion of its identity. Another way to disguise your internet information is by going to a HTTPS website (Padlock). Two <br>
+      fundamental reasons for utilizing a HTTPS connection when visiting a website are to enhance a user's security and privacy. While HTTPS connections are <br>
+      primarily secure, corporations, schools, and other organizations have responded to this "loss of visibility" by deploying HTTPS Proxy Appliances. HTTPS Proxy <br>
+      Appliances allow these organizations to examine HTTPS traffic requested by individuals on their network, which circumvents a user's guarantee of Internet <br>
+      browser privacy. This brings up the question, does your school/government/ISP have a right to eavesdrop on your communication? No, this violates the <br>
+      fundamental right to privacy and may be used by telecom networks to sell your data. Although your organization may be monitoring your network, you are still <br>
+      protected. Examining a website's SSL certificate can produce a "cryptographic hash." Changing one bit within a certificate can result in the average <br>
+      alteration of half of the fingerprint's hash bits. Although hashing sounds like a good idea, there are some flawed ones, such as MD5 & SHA-1. A good hash has <br>
+      collision resistance, preimage resistance, and second preimage resistance. Collision Resistance is how hard it is to find two messages (message digest) that <br>
+      hash the same. Preimage Resistance is the difficulty of finding another message that hashes the same when given a hash. Second preimage resistance is when <br>
+      you're given a message and it is infeasible to find a second input with the same output as the given input. <br>
+    </p>
+    <p>
+      Devices connected to the internet are susceptible to attacks. An SSL interception is an attack used to intercept, block or allow traffic to and from websites. <br>
+      Anti-Malware software can assist you in detecting SSL interceptions and removing them. Avoid clicking on spam emails, ads, and visiting non-HTTPS websites. <br>
+      Similar to an SSL interception attack, a MitM attack intercepts communications between two parties. The attacker can monitor, collect, or manipulate all <br>
+      information sent between the parties. Some people may think they are tracked by checking a site's certificate fingerprints. Amazon and Google, for example, <br>
+      have several certificates to make it easier to obtain and manage them, but their security is not compromised; this is known as a false-positive. Another <br>
+      component of this is a false-negative, which occurs when you believe you are not being monitored when you are. <br>
+    </p>
+    <img src="https://codermerlin.com/users/reynard-gunawan/Fingerprints.png" alt="Authenticate Fingerprint Diagram">
+    <p>Burnett, E. (1956, September 1). Which cryptographic hash function should I choose? Stack Overflow. Retrieved August 24, 2022, <br> from https://stackoverflow.com/questions/800685/which-cryptographic-hash-function-should-i-choose </p>
+    <p>Swinhoe, D. (2022, March 25). Man-in-the-middle (MITM) attack definition and examples. CSO Online. Retrieved August 24, 2022, <br> from https://www.csoonline.com/article/3340117/man-in-the-middle-attack-definition-and-examples.html </p>
   </body>
 </html>
