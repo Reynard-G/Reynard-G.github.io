@@ -1,7 +1,7 @@
 @font-face {
     font-family : 'Montserrat';
     font-style : normal;
-    font-weight : 400;
+    font-weight: normal;
     src : url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf) format('truetype');
 }
 
@@ -15,6 +15,7 @@ body {
 .essay p {
     width: 50%;
     display: inline-block;
+    font-size: 1.25rem;
     text-align: left;
     text-indent: 40px;
     margin-left: auto;
