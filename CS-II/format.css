@@ -36,7 +36,12 @@ div.container {
     text-align: center;
 }
 
+.ul-container {
+    text-align: center;
+}
+
 .center-ul {
     display: inline-block;
     text-align: left;
 }
+
